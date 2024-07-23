@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Epic Games</title>
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="logo">
+                <img width="48" height="48" src="https://img.icons8.com/ffffff/material-rounded/48/epic-games.png" alt="epic-games"/>
+            </div>
+            <button><img width="23" height="23" src="https://img.icons8.com/ffffff/price-tag--v1.png" alt="price-tag--v1"/><a href="">Store</a></button>
+            <button><img width="23" height="23" src="https://img.icons8.com/ffffff/four-squares.png" alt="four-squares"/><a href="">Libaray</a></button>
+            <button><img width="23" height="23" src="https://img.icons8.com/ffffff/unreal-engine--v1.png" alt="unreal-engine--v1"/><a href="">Unreal Engine</a></button>
+       
+        </div>
+        <div class="navbar">
+            <div class="leftitems">
+                <img width="14" height="14" src="https://img.icons8.com/ffffff/30/back.png" alt="back"/>
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="Search store">
+                <a href="">Discover</a>
+                <a href="">Browse</a>
+                <a href="">News</a>
+            </div>
+            <div class="rightitems">
+                <a href="">Wishlist</a>
+                <a href="">Cart</a>
+                <a href="" id="line">|</a>
+                <a href=""><img width="24" height="24" src="https://img.icons8.com/ffffff/external-tanah-basah-basic-outline-tanah-basah/24/external-friends-user-tanah-basah-basic-outline-tanah-basah.png" alt="external-friends-user-tanah-basah-basic-outline-tanah-basah"/></a>
+                <a href=""><img width="24" height="24" src="https://img.icons8.com/ffffff/material-outlined/24/guest-male.png" alt="guest-male"/></a>
+            </div>
+        </div>
+        <div class="mainbody">
+            <div class="image">
+                <div id = "image">
+                </div>
+                <div class="slider" onload="upDate(this)">
+                    <div id="row" class="row_posters">
+                        <button><img class = "preview" alt = "Remenant" src = "images/RemnantFromtheAshes.jpg" ><a href="">Remenant</a></button>
+                        <button><img class = "preview" alt = "The Expanse" src = "images/The-Expanse-A-Telltale-Series.png"  ><a href="">The Expanse:A Telltale Series</a></button>
+                        <button><img class = "preview" alt = "The Evil within" src = "images/maxresdefault.jpg"  ><a href="">The Evil within</a></button>
+                        <button><img class = "preview" alt = "EASportsFCMobile" src = "images/EASportsFCMobile.jpg"  ><a href="">Ea Sport FC</a></button>
+                        <button><img class = "preview" alt = "Dead Island 2" src = "images/DeadIsland2.jpg"  ><a href="">Dead Island 2</a></button>
+                        <button><img class = "preview" alt = "Witch Fire" src = "images/witchfire.jpg"   ><a href="">WitchFire</a></button>
+                      </div>
+                </div>
+            </div>
+            <div class="headings">
+                <h1>Trending</h1>
+                <button>View more</button>
+            </div>
+            <div class="slider1">
+                <div id="row1">
+                    <img src="images/Trending/AC KINGDOM PREORDER_STANDARD EDITION_EPIC_Key_Art_Portrait_640x854-640x854-288120c5573756cb988b6c1968cebd86.png" alt="" class="row_poster">
+                    <img src="images/Trending/bloons-td-6-offer-1jl6n.jpg" alt="" class="row_poster">
+                    <img src="images/Trending/EGS_OBSKUR_OBSKUR_S1_2560x1440-0c0696f33191ef301ff02ef5f5b01aa2.jpg" alt="" class="row_poster">
+                    <img src="images/Trending/goat-simulator-3-pc-game-epic-games-europe-cover.jpg" alt="" class="row_poster">
+                </div>
+            </div>
+            <div class="headings">
+                <h1>Most popular</h1>
+            </div>
+            <div class="slider1">
+                <button id="btnl0" class="handle left-handle">
+                    <div class="text">&#8249;</div>
+                  </button>
+                  <button id="btnr0" class="handle right-handle">
+                    <div class="text">&#8250;</div>
+                  </button>
+                <div id="row2" class="row_posters1">
+                   <img src="images/Most popular/Dying_Light_2_cover_art.jpg" alt="" class="row_poster">
+                    <img src="images/Most popular/Grand_Theft_Auto_V.png" alt="" class="row_poster">
+                    <img src="images/Most popular/MV5BODhkN2U1YzYtODQzZC00MTc5LTlmMmYtYjQ2ZGU2ZmM4YzJkXkEyXkFqcGdeQXVyMTE0MTc4MjU2._V1_FMjpg_UX1000_.jpg" alt="" class="row_poster">
+                    <img src="images/Most popular/MV5BYmVmOWUzMjEtZWE5OS00OWUwLWFiZmEtYzNlNDVhODc1ZTZmXkEyXkFqcGdeQXVyMzMyNjUwMzY@._V1_FMjpg_UX1000_.jpg" alt="" class="row_poster">
+                    <img src="images/Most popular/Payday2cover.jpg" alt="" class="row_poster">
+                    <img src="images/Most popular/RDR2PC1227_Epic Games_860x1148-860x1148-b4c2210ee0c3c3b843a8de399bfe7f5c.jpg" alt="" class="row_poster">
+                    <img src="images/Most popular/EGS_NARAKABLADEPOINT_24Entertainment_S2_1200x1600-0828f82ab96ff2be38169b992ddef860.jpg" alt="" class="row_poster">
+                    <img src="images/Most popular/EGS_theHunterCalloftheWild_ExpansiveWorlds_S2_1200x1600-1e9b46aaabc33fe0a08cf5b418e76ba2.jpg" alt="" class="row_poster">
+                </div>
+            </div>
+            <div class="footer">
+                <figure>
+                    <img src="images/footer/egs-sales-specials-breaker-1280x721-8d81919a48e5.webp" alt="">
+                    <figcaption>
+                       <h1> Sales & Specials</h1>
+                        <p>Save big on hit titles and hidden gems. There's always something on sale at the Epic Games Store!
+                        </p>
+                       <a href="">Browse</a>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/footer/Epic-Games-Free-Games-2023-List.webp" alt="">
+                    <figcaption>
+                        <h1> Free Games</h1>
+                        <p>Explore free and free-to-play games from our collection. Come back every Thursday for a new free game!</p>
+                       <a href="">Play Now</a>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/footer/apps-on-epic-games-store-1200x1200-f2becab18999.jpg" alt="">
+                    <figcaption>
+                        <h1> Apps</h1>
+                        <p>Enjoy some of the best Apps for music, gaming, creating, and more! </p>
+                       <a href="">Browse</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="css/java.js"></script>
+</html>
